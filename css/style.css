@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 10px 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/* navbar */
+ul li a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(2, 2, 88);
+}
+.navbar .brand{
+    float: left;
+}
+.navbar ul{
+    float: right;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+.navbar ul li{
+    display: inline;
+    padding: 20px;
+}
+.navbar ul li a{
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.navbar ul li a:hover{
+    background: #fff;
+    color: rgb(2, 2, 77);
+}
+.navbar .brand{
+    padding: 10px;
+    color: #fff;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+/* profile */
+#profile{
+    width: 100%;
+    min-height: 60vh;
+    background-color: rgb(187, 187, 187);
+}
+
+#profile .grid2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+#profile .abt{
+    font-size: 46px;
+    padding: 20px;
+    text-align: center;
+}
+#profile .grid2 h3{
+    font-size: 30px;
+    padding: 20px;
+}
+span{
+    display: block;
+}
+#profile .grid2 .text{
+    padding-left: 30px;
+    margin-top: 20px;
+}
+#profile .grid2 .text p{
+    font-size: 20px;
+}
+#profile .grid2 img{
+    border-radius: 20px;
+}
+
+/* about */
+#about{
+    width: 100%;
+    height: 90vh;
+}
+#about .content h3{
+    font-size: 46px;
+    padding: 20px;
+    text-align: center;
+}
+#about .content p{
+    padding: 10px 30px;
+    background-color: rgb(200, 200, 202);
+    padding: 20px;
+}
+
+/* service */
+#service{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url(../img/work2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#service .text{
+    font-size: 46px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+#service .grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+#service .grid h3{
+    padding: 20px;
+    text-align: center;
+}
+#service .grid .box{
+    background-color: rgb(190, 190, 190);
+    border-radius: 10px;
+    padding: 20px;
+}
+#service .grid .box p{
+    padding: 10px;
+    
+}
+
+/* work */
+#work{
+    width: 100%;
+    height: 100vh;
+}
+
+#work .work-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+#work .text{
+    font-size: 46px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* contact */
+#contact{
+    width: 100%;
+    height: 70vh;
+}
+#contact{
+    background-image: url(../img/showcase1.jpg);
+}
+.contact{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 30px;
+}
+.contact-image img{
+    border-radius: 20px;
+}
+#contact .contact form{
+    padding: 0 40px 0 40px;
+}
+#contact .contact form input{
+    width: 100%;
+    height: 40px;
+}
+textarea{
+    width: 100%;
+    padding: 20px;
+}
+select{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+.submit-btn{
+    font-size: 16px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+}
+.submit-btn:hover{
+    background: gray;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+#contact .about-head{
+    font-size: 46px;
+    text-align: center;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: 40vh;
+}
+
+.grid3{
+    background-color: rgb(2, 2, 75);
+}
+.grid3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 0 60px 0 30px;
+    color: #fff;
+}
+
+.grid3 .address{
+    line-height: 1.7;
+    padding-left: 50px;
+    font-family: cursive;
+}
+.grid3 h3{
+    font-size: 22px;
+}
+#social{
+    font-size: 60px;
+    padding: 10px;
+}
+#social:hover{
+    color: orangered;
+}
+
+.grid3 .address .ph a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.4;
+}
+
